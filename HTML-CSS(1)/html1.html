@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="p4.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                Survey from WEBHUB
+            </h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form action="" id="survey-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="number">Number</label>
+                <input type="text" name="number" id="number" class="formControl" placeholder="Enter your Number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" class="formControl" placeholder="Enter your Address" required>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Select</p>
+                <select name="role" id="dropdown" class="formControl" required>
+                    <option value="" disabled selected>Select current role</option>
+                    <option value="TypeO">Student</option>
+                    <option value="TypeA">FrontEnd Developer</option>
+                    <option value="TypeB">BackEnd Developer</option>
+                    <option value="TypeC">Software Developer</option>
+                    <option value="TypeD">ML Engineer</option>
+                    <option vlaue="TypeE">Other</option> 
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">How do you came to know about WEBHUB</p>
+                <label for="">
+                    <input type="radio" name="internet" value="internet" class="inputRadio" >Internet
+                </label>
+                <label for="">
+                    <input type="radio" name="social-media" value="social-media" class="inputRadio" >Social Media
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="friends" class="inputRadio" >Freinds
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Would you like to see it improved?</p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev">Backend Developer
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" class="checkbox" value="front-end-dev">Frontend Developer
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" class="checkbox" value="ML">ML Engineer
+                </label>
+            </div>
+            
+            <div class="form-group">
+                <p id="quest">Feedback</p>
+                <textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea" placeholder="Enter your feedback here"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

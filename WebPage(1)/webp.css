@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: linear-gradient(rgba(250,250,250,0.2),rgba(250,250,250,0.6)),url(https://img.freepik.com/free-photo/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering_41470-1778.jpg?w=2000);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(92, 57, 156);
+}
+.header{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#heading{
+    width: 120px;
+    cursor: pointer;
+    font-size: 40px;
+}
+#options ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+ 
+#options ul li:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+
+}
+
+.mid{
+    text-align: center;
+    margin-top: 10%;
+
+}
+#mid-main{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+#p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn{
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 50px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: transparent;
+    border-color: chocolate;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;  
+}
+span{
+    background: #acb82d;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+
+
+
+
+

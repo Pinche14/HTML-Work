@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/hand-painted-background-violet-orange-colours_23-2148427578.jpg?w=2000);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff
+}
+.header{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#quest{
+    margin-bottom: 5px;
+}
+#radiogroup{
+    margin-top: 10px;
+}
+#asktypes{
+    margin-top: 10px;
+}
+#title{
+    font-size: 1.8em;
+}
+#description{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.form-group{
+    text-align: center;
+
+}
+
+.form-group{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+
+}
+form{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 34px;
+    align-items: center;
+    justify-content: content;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+} 
+#dropdown{
+    width: 70%;
+    height: 1.6em;
+    position: relative;
+    border-radius: 5px;
+    border: 0;
+}
+#dropdown1{
+    width: 40%;
+    height: 1.6em;
+    position: relative;
+    border-radius: 5px;
+    border: 0;
+
+}
+.btn{
+    width: 80px;
+    height: 25px;
+    position: relative;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+}
+
